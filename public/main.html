@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Главная страница</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./normalize.css">
+    <link rel="icon" href="./Media/IMG/browser-logo.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Организуйте и отслеживайте лабораторное оборудование с Botanique. Управляйте приборами, сохраняйте избранные, и просматривайте историю работы оборудования для эффективного лабораторного анализа.">
+</head>
+
+<body>
+    <!--Section "Header"-->
+    <header class="header">
+        <div class="header__content">
+            <div class="header__logo">
+                <img class="logo" src="./Media/SVG/logo-header.svg" alt="Логотип Компании Botanique">
+            </div>
+            <nav class="header__menu">
+                <div class="btn__container">
+                    <div class="main__page__content">
+                        <a href="./main.html" class="main__page__btn" id="mainBtn">ГЛАВНАЯ</a>
+                    </div>
+                    <div class="underline__element" id="mainUnderline"></div>
+                </div>
+                <div class="btn__container">
+                    <div class="analitics__page__content">
+                        <a href="./analytics.html" class="analitics__page__btn" id="analyticsBTN">АНАЛИТИКА</a>
+                    </div>
+                    <div class="underline__element" id="analyticsUnderline"></div>
+                </div>
+            </nav>
+            <a href="#"><img class="user__header__btn" src="./Media/SVG/user-header.svg"
+            alt="Личный Кабинет"></a>
+        </div>
+    </header>
+
+    <!--Section "Main Page Content"-->
+    <main class="main__page">
+
+        <!--Search Bar-->
+        <div class="search__bar">
+            <input class="search__input" type="buttton" placeholder="Поиск прибора в Botanique по номеру, названию, подразделению и др.">
+            <a href="#"><img class="search__QR-icon" src="./Media/SVG/main-page-svg/search-qr-code.svg" alt="Сканнер QR кода"></img></a>
+        </div>
+
+        <!--Favorites Block-->
+        <section class="favorites">
+            <div class="favorites__header">
+                <img class="favorites__icon" src="./Media/SVG/main-page-svg/fav-icon-not-pressed.svg" alt="Иконка Любимое">
+                <p class="favorites__title">Любимые приборы</p>
+            </div>
+
+            <ul class="favorite">
+                <!--Product Item-->
+                <div class="favorite__header">
+                    <p class="name__coll">Название</p>
+                    <p class="status__coll">Статус</p>
+                </div>
+                <div class="favorite__list">
+                    <div class="row">
+                        <li class="favorites__item">
+                            <img class="image__item" src="./Media/SVG/main-page-svg/product-image-1.svg" alt="Изображение товара">
+                            <a href="#" class="name__item">pH-метр Mettler-Toledo International, Inc. SevenCompact S220</a>
+                            <a href="#" class="status__item__btn">
+                            <span class="status__text">Свободен</span>
+                            <img class="status__arrow" src="./Media/SVG/main-page-svg/status-arrow.svg" alt="Стрелка навигации">
+                            </a>
+                            <a href="#" class="item__alert_container"><img class="item__alert__active" src="./Media/SVG/main-page-svg/notification-bell-on.svg" alt="Включенные уведомления"></a>
+                        </li>
+                        <figure class="favorite__devider"></figure>
+
+                        <li class="favorites__item">
+                            <img class="image__item" src="./Media/SVG/main-page-svg/product-image-2.svg" alt="Изображение товара">
+                            <a href="#" class="name__item">Спектрофотометр Varian, Inc Cary 50 Bio</a>
+                            <a href="#" class="status__item__btn">
+                            <span class="status__text">Свободен</span>
+                            <img class="status__arrow" src="./Media/SVG/main-page-svg/status-arrow.svg" alt="Стрелка навигации">
+                            </a>
+                            <a href="#" class="item__alert_container"><img class="item__alert__active" src="./Media/SVG/main-page-svg/notification-bell-on.svg" alt="Включенные уведомления"></a>
+                        </li>
+                        <figure class="favorite__devider"></figure>
+
+                        <li class="favorites__item">
+                            <img class="image__item" src="./Media/SVG/main-page-svg/product-image-3.svg" alt="Изображение товара">
+                            <a href="#" class="name__item">Титратор</a>
+                            <a href="#" class="status__item__btn">
+                            <span class="status__text">Свободен</span>
+                            <img class="status__arrow" src="./Media/SVG/main-page-svg/status-arrow.svg" alt="Стрелка навигации">
+                            </a>
+                            <a href="#" class="item__alert_container"><img class="item__alert__not__pressed" src="./Media/SVG/main-page-svg/notification-bell-none.svg" alt="Тип ведомлений не выбран"></a>
+                        </li>
+                        <figure class="favorite__devider"></figure>
+
+                        <li class="favorites__item">
+                            <img class="image__item" src="./Media/SVG/main-page-svg/product-image-4.svg" alt="Изображение товара">
+                            <a href="#" class="name__item">Коагулометр Tcoag, KC 4 Delta</a>
+                            <a href="#" class="status__item__btn">
+                            <span class="status__text">Свободен</span>
+                            <img class="status__arrow" src="./Media/SVG/main-page-svg/status-arrow.svg" alt="Стрелка навигации">
+                            </a>
+                            <a href="#" class="item__alert_container"><img class="item__alert__not__active" src="./Media/SVG/main-page-svg/notification-bell-off.svg" alt="Уведомления отключены"></a>
+                        </li>
+                        <figure class="favorite__devider"></figure>
+
+                        <li class="favorites__item">
+                            <img class="image__item" src="./Media/SVG/main-page-svg/product-image-4.svg" alt="Изображение товара">
+                            <a href="#" class="name__item">Коагулометр Tcoag, KC 4 Delta</a>
+                            <a href="#" class="status__item__btn">
+                            <span class="status__text">Свободен</span>
+                            <img class="status__arrow" src="./Media/SVG/main-page-svg/status-arrow.svg" alt="Стрелка навигации">
+                            </a>
+                            <a href="#" class="item__alert_container"><img class="item__alert__not__active" src="./Media/SVG/main-page-svg/notification-bell-off.svg" alt="Уведомления отключены"></a>
+                        </li>
+                    </div>
+                </div>
+            </ul>
+        </section>
+    </main>
+
+    <script src="./script.js"></script>
+</body>
+</html>

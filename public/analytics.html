@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Страница Аналитики</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./normalize.css">
+    <link rel="icon" href="./Media/IMG/browser-logo.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Организуйте и отслеживайте лабораторное оборудование с Botanique. Управляйте приборами, сохраняйте избранные, и просматривайте историю работы оборудования для эффективного лабораторного анализа.">
+</head>
+
+<body>
+    <!--Section "Header"-->
+    <header class="header">
+        <div class="header__content">
+            <div class="header__logo">
+                <img class="logo" src="./Media/SVG/logo-header.svg" alt="Логотип Компании Botanique">
+            </div>
+            <nav class="header__menu">
+                <div class="btn__container">
+                    <div class="main__page__content">
+                        <a href="./main.html" class="main__page__btn" id="mainBtn">ГЛАВНАЯ</a>
+                    </div>
+                    <div class="underline__element" id="mainUnderline"></div>
+                </div>
+                <div class="btn__container">
+                    <div class="analitics__page__content">
+                        <a href="./analytics.html" class="analitics__page__btn" id="analyticsBTN">АНАЛИТИКА</a>
+                    </div>
+                    <div class="underline__element" id="analyticsUnderline"></div>
+                </div>
+            </nav>
+            <a href="#"><img class="user__header__btn" src="./Media/SVG/user-header.svg"
+            alt="Личный Кабинет"></a>
+        </div>
+    </header>
+
+    <!--Section "Analytics Page Content"-->
+    <main class="analytics__page">
+        <div class="card__data">
+            <!--Card Header-->
+            <div class="card__header">
+                <div class="card__header__content">
+                    <img class="unknown__item" src="./Media/SVG/analytics-page-svg/unknown-item-icon.svg" alt="Неизвестный товар">
+                    <div class="info__item">
+                        <h1 class="card__name__item">pH-метр Mettler-Toledo International, Inc. SevenCompact S220</h1>
+
+                        <div class="info__card__item">
+                            <p class="tile__card__item">S1.4.I14-9.001</p>
+                            <img class="dot__caption" src="./Media/SVG/analytics-page-svg/dot-caption.svg" alt="Разделитель">
+                            <p class="tile__card__item">00-024004</p>
+                        </div>
+                    </div>
+                    <div class="action__block">
+                        <div class="work__btn__container">
+                            <a href="#" class="work__action__btn">
+                                <span class="status__work__text">В работе</span>
+                                <img class="status__arrow" src="./Media/SVG/analytics-page-svg/status-arrow.svg" alt="Стрелка навигации">
+                            </a>
+                        </div>
+                        <a href="#" class="like__btn__container">
+                            <img class="fav__btn__pressed" src="./Media/SVG/analytics-page-svg/fav-icon-pressed.svg" alt="Понравившейся товар">
+                        </a>
+                        <a href="#" class="settings__btn__container">
+                            <img class="settings__btn" src="./Media/SVG/analytics-page-svg/settings-icon.svg" alt="Настройки товара">
+                        </a>
+                    </div>
+                </div>
+                <figure class="big__devier"></figure>
+            </div>
+
+            <!--Select & Action Block-->
+            <div class="select__action">
+                <a href="#" class="list__item__btn">
+                    <p class="item__btn__text">Работа прибора</p>
+                    <img class="navigation__arrow" src="./Media/SVG/analytics-page-svg/big-arrow-navigation.svg" alt="Стрелка навигации">
+                </a>
+                <div class="save__btn__container">
+                    <a href="#" class="alarm__btn__container"> <img class="alarm__btn__on" src="./Media/SVG/analytics-page-svg/alarm-icon.svg" alt="Кнопка включенных уведомлений"></a>
+                    <a href="/download-pdf" class="save__PDF__container" id="downloadPdfButton">
+                        <p class="text__save__btn">Сохранить в PDF</p>
+                        <div class="devider__block">
+                            <figure class="devider__for__save__btn"></figure>
+                            <img class="dots__more" src="./Media/SVG/analytics-page-svg/3-dots-icon.svg" alt="Больше информации">
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+            <!--Date Time Information-->
+            <div class="date__info">
+                <a href="#" class="date__at__block">
+                    <p class="date__at__text">07.10.2021, 10:55</p>
+                    <img class="calendar__icon" src="./Media/SVG/analytics-page-svg/calendar-icon.svg" alt="Иконка календаря">
+                </a>
+                <span class="index__arrow__container"><img class="index__arrow" src="./Media/SVG/analytics-page-svg/index-arrow-icon.svg" alt="Указательная стрелка"></span>
+                <a href="#" class="date__now__block">
+                    <p class="date__now__text">21.10.2021, 10:55</p>
+                    <img class="calendar__icon" src="./Media/SVG/analytics-page-svg/calendar-icon.svg" alt="Иконка календаря">
+                </a>
+            </div>
+
+            <!--Time Block-->
+            <div class="time__block">
+                <a href="#" class="day__btn"><p class="day__text">День</p></a>
+                <a href="#" class="week__btn"><p class="week__text">Неделя</p></a>
+                <a href="#" class="two__week__btn"><p class="two__week__text">2 недели</p></a>
+                <a href="#" class="month__btn"><p class="month__text">Месяц</p></a>
+                <a href="#" class="three__month__btn"><p class="three__month__text">3 месяца</p></a>
+                <a href="#" class="six__month__btn"><p class="six__month__text">Полгода</p></a>
+            </div>
+
+            <!--Table Block-->
+            <div class="table__block">
+                <div class="table__row__header">
+                    <div class="table__row__header__content">
+                        <div class="duration__block">
+                            <p class="duration__text">Начало</p>
+                        </div>
+                        <div class="type__work__block">
+                            <p class="type__work__text">Тип работ</p>
+                        </div>
+                        <div class="jobs__block">
+                            <p class="jobs__text">Работы</p>
+                        </div>
+                        <div class="result__block">
+                            <p class="result__text">Результат</p>
+                        </div>
+                        <div class="user__block">
+                            <p class="user__text">Пользователь</p>
+                        </div>
+                    </div>
+                    <figure class="table__devider"></figure>
+                </div>
+                <figure class="table__devider"></figure>
+                <div class="table__row">
+                    <div class="table__row__content">
+                        <div class="duration__block__row">
+                            <p class="duration__text">09.10.2021, 15:46</p>
+                        </div>
+                        <div class="type__work__block__row">
+                            <p class="status__work__text__row">В работе</p>
+                            <p class="type__work__text__row">Измерение</p>
+                        </div>
+                        <div class="jobs__block__row">
+                            <p class="jobs__text__row">Образец/серия: <span class="jobs__text__row__num">000100057935_170000010325_0000251849</span></p>
+                        </div>
+                        <div class="result__block__row">
+                            <div class="text__block"></div>
+                            <img class="chek__icon" src="./Media/SVG/analytics-page-svg/action-check.svg" alt="Галочка">
+                        </div>
+                        <div class="user__block__row">
+                            <p class="user__name">morozovava</p>
+                        </div>
+                    </div>
+                </div>
+                <figure class="table__devider"></figure>
+                <div class="table__row">
+                    <div class="table__row__content">
+                        <div class="duration__block__row">
+                            <p class="duration__text">12.10.2021, 12:17</p>
+                        </div>
+                        <div class="type__work__block__row">
+                            <p class="status__work__text__row">В работе</p>
+                            <p class="type__work__text__row">Калибровка</p>
+                        </div>
+                        <div class="jobs__block__row">
+                            <p class="jobs__text__row__two">Номер колонки: <span class="jobs__text__row__num__two">Колонка 2</span></p>
+                            <p class="jobs__text__row__two">Образец: <span class="jobs__text__row__num__two">Образец 2</span></p>
+                            <p class="jobs__text__row__two">Образец: <span class="jobs__text__row__num__two">Образец 1</span></p>
+                            <p class="jobs__text__row__two">Метод: <span class="jobs__text__row__num__two">Метод тестовый</span></p>
+                            <p class="jobs__text__row__two">Номер колонки: <span class="jobs__text__row__num__two">Колонка 1</span></p>
+                        </div>
+                        <div class="result__block__row">
+                            <div class="text__block">Промывка с указанием вещества:<br>Вещество<br>...</div>
+                            <img class="chek__icon" src="./Media/SVG/analytics-page-svg/action-check.svg" alt="Галочка">
+                        </div>
+                        <div class="user__block__row">
+                            <p class="user__name">morozovava</p>
+                        </div>
+                    </div>
+                </div>
+                <figure class="table__devider"></figure>
+            </div>
+        </div>
+    </main>
+
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
